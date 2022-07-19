@@ -1,0 +1,57 @@
+.editBtn {
+    display: flex;
+    align-items: center;
+}
+
+.introduce {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-active {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: green solid 0.5px;
+    background-color: green;
+}
+
+.btn-active:hover {
+    box-shadow: 1px 1px 1px 1px green;
+}
+
+.btn-inactive {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: purple solid 0.5px;
+    background-color: purple;
+}
+
+.btn-inactive:hover {
+    box-shadow: 1px 1px 1px 1px purple;
+}
+
+.btn-denied {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: yellow solid 0.5px;
+    background-color: yellow;
+} 
+
+.btn-denied:hover {
+    box-shadow: 1px 1px 1px 1px yellow;
+}
+
+.btn-deleted {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: red solid 0.5px;
+    background-color: red;
+}
+
+.btn-deleted :hover {
+    box-shadow: 1px 1px 1px 1px red;
+}
